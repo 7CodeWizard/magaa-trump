@@ -1,0 +1,14 @@
+.sunCon {
+  position: absolute;
+  top: -100px;
+  left: 190px;
+  z-index: 1000;
+  width: 400px;
+  height: 400px;
+}
+
+@media (max-width: 1000px) {
+  .sunCon {
+    display: none;
+  }
+}
